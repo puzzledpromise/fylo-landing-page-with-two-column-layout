@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
+          rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css"
+          integrity="sha512-gRH0EcIcYBFkQTnbpO8k0WlsD20x5VzjhOA1Og8+ZUAhcMUCvd+APD35FJw3GzHAP3e+mP28YcDJxVr745loHw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<header>
+    <div class="container">
+        <img class="logo" src="images/logo.svg" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="container landing">
+    <div class="illustration">
+        <img class="illustration" src="images/illustration-1.svg" alt="illustration">
+    </div>
+    <div class="landing-text">
+        <h1>
+            All your files in one secure location, accessible anywhere.
+        </h1>
+        <p>
+            Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.
+        </p>
+        <form>
+            <input type="text" placeholder="Enter your email..." name="email" autocomplete="off">
+            <button>Get Started</button>
+            <small class="email-error" name="message">Please Check your email</small>
+        </form>
+    </div>
+</div>
+<div class="arch">
+
+</div>
+<div class="background-fullwidth color-neutral1">
+    <div class="container features">
+        <img class="illustration" src="images/illustration-2.svg" alt="illustration">
+
+        <div class="features-text">
+            <div>
+                <h2>
+                    Stay productive, wherever you are
+                </h2>
+
+                <p>
+                    Never let location be an issue when accessing your files. Fylo has you
+                    covered for all of your file storage needs.
+                </p>
+                <p>
+                    Securely share files and folders with friends, family and colleagues for
+                    live collaboration. No email attachments required!
+                </p>
+
+            </div>
+            <div>
+                <a href="#" class="icon-arrow">See how Fylo works</a>
+            </div>
+            <div class="card">
+                <img src="images/icon-quotes.svg" class="quotes">
+                <p class="card-text">
+                    Fylo has improved our team productivity by an order of magnitude. Since
+                    making the switch our team has become a well-oiled collaboration machine.
+
+                </p>
+                <div class="author-line">
+                    <img src="images/avatar-testimonial.jpg" alt="">
+                    <div class="card-author">
+                        <div class="author-name">Kyle Burton</div>
+                        <div class="author-title">Founder & CEO, Huddle</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="background-fullwidth color-primary2">
+    <div class="container signup">
+        <div>
+            <h2>Get early access today</h2>
+            <p>
+                It only takes a minute to sign up and our free starter tier is extremely generous.
+                If you have any questions, our support team would be happy to help you.
+            </p>
+        </div>
+        <form>
+            <input type="text" placeholder="email@example.com" name="email" autocomplete="off">
+            <button>Get Started For Free</button>
+            <small class="email-error bright" name="message">Please Check your email</small>
+
+        </form>
+    </div>
+</div>
+<footer>
+    <div class="container footer-content">
+
+        <div>
+            <img class="logo" src="images/logowhite.svg" alt="Logo">
+        </div>
+        <div class="footer-details">
+            <ul class="footer-block">
+                <li class="icon phone">Phone: +1-543-123-4567</li>
+                <li class="icon email">example@fylo.com</li>
+            </ul>
+            <ul class="footer-block">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <ul class="footer-block">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+            <div class="social-box">
+                <a href="https://facebook.com">
+                    <ion-icon name="logo-facebook">1</ion-icon>
+                </a>
+                <a href="https://instagram.com">
+                    <ion-icon name="logo-instagram">2</ion-icon>
+                </a>
+                <a href="https://twitter.com">
+                    <ion-icon name="logo-twitter">3</ion-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="script.js"></script>
+</html>
